@@ -1,11 +1,11 @@
-def shutdown():
-    if value=='yes':
+def shutdown(n):
+    if n=='yes':
         print("Shutting down")
-    elif value=='no':
+    elif n=='no':
         print("Abort shutdown")
     else:
         print("Sorry")
 
 value=input("Would you like to shutdown the system?: ")
 
-shutdown()
+shutdown(value)
